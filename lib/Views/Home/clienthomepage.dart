@@ -4,7 +4,7 @@ import 'package:turfbokkingapp/Views/Home/client_tabs/all_turfs.dart';
 import 'package:turfbokkingapp/Views/Home/client_tabs/home_tab.dart';
 import 'package:turfbokkingapp/Views/Home/client_tabs/settings_tab.dart';
 import 'package:turfbokkingapp/Views/Home/client_tabs/TournamentsTab.dart';
-import 'package:turfbokkingapp/Views/home/client_tabs/MedicalAssistantChatbot.dart'; // Import the chatbot page
+import 'package:turfbokkingapp/Views/Home/client_tabs/MedicalAssistantChatbot.dart'; // Import the chatbot page
 
 class ClientHomeScreen extends StatefulWidget {
   const ClientHomeScreen({super.key});

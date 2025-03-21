@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -53,10 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyATxUW-ofzQlmXd_8J_Thdvg9KKCj-R5UM',
-    appId: '1:10653926002:android:dc5799985c4e238ad5f8eb',
-    messagingSenderId: '10653926002',
-    projectId: 'turfbooking-2b87b',
-    storageBucket: 'turfbooking-2b87b.appspot.com',
+    apiKey: 'AIzaSyCQWGw-OwSffTMyCCHuu1nlH8VG2M4MdYM',
+    appId: '1:305317046980:android:a2be1b1ed24e742c347791',
+    messagingSenderId: '305317046980',
+    projectId: 'mini-project-hafis123',
+    storageBucket: 'mini-project-hafis123.firebasestorage.app',
   );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBt3XmW6E38qHm8KCwP05qbTmiUVhUml-w',
+    appId: '1:305317046980:web:829d3abffad9f811347791',
+    messagingSenderId: '305317046980',
+    projectId: 'mini-project-hafis123',
+    authDomain: 'mini-project-hafis123.firebaseapp.com',
+    storageBucket: 'mini-project-hafis123.firebasestorage.app',
+    measurementId: 'G-91B4ML2SLF',
+  );
+
 }

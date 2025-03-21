@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "10653926002",
-    "project_id": "turfbooking-2b87b",
-    "storage_bucket": "turfbooking-2b87b.appspot.com"
+    "project_number": "305317046980",
+    "project_id": "mini-project-hafis123",
+    "storage_bucket": "mini-project-hafis123.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:10653926002:android:dc5799985c4e238ad5f8eb",
+        "mobilesdk_app_id": "1:305317046980:android:a2be1b1ed24e742c347791",
         "android_client_info": {
           "package_name": "com.example.turfbokkingapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyATxUW-ofzQlmXd_8J_Thdvg9KKCj-R5UM"
+          "current_key": "AIzaSyCQWGw-OwSffTMyCCHuu1nlH8VG2M4MdYM"
         }
       ],
       "services": {
